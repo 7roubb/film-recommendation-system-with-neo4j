@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  neo4j:
+    image: neo4j:5.6
+    container_name: neo4j-db
+    environment:
+      - NEO4J_AUTH=neo4j/securepassword123  
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    volumes:
+      - ./import:/var/lib/neo4j/import  
+volumes:
+  neo4j_data:
