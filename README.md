@@ -1,4 +1,6 @@
 # Movie Recommendation System
+![image](https://github.com/user-attachments/assets/32223f84-47ee-48bb-b062-55bb0b6490ac)
+
 
 This project implements a **Movie Recommendation System** using a **Backend API** built with **Python** and a **Neo4j** graph database for storing and retrieving movie data. The system generates personalized recommendations for users based on movie genres and user preferences.
 
