@@ -106,6 +106,9 @@ The recommendation system in this project uses a **graph-based approach** with N
     - The backend uses a Cypher query to find similar movies by traversing the `:SIMILAR_TO` relationships in the graph.
 
 3. **Collaborative Filtering**: Optionally, if user interaction data (e.g., ratings, views) is available, collaborative filtering algorithms can be applied using Neo4j’s graph traversal capabilities to recommend movies based on user similarities.
+![image](https://github.com/user-attachments/assets/b1f5f015-4738-4ac9-bed6-8f1530926c90)
+![image](https://github.com/user-attachments/assets/4f802ce7-2a56-4a1d-a08e-149db0e93bbd)
+
 
 ## API Endpoints
 
