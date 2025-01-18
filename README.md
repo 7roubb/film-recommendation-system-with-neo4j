@@ -55,7 +55,7 @@ This project consists of a **Backend API** implemented with Python and **Neo4j**
 
 1. Navigate to the **frontend** folder:
     ```bash
-    cd ../frontend
+    cd ../project
     ```
 
 2. Install the required **npm packages**:
